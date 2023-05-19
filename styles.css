@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+    font-family: "Roboto";
+}
+
+.heading {
+    text-align: center;
+}
+
+th {
+    font-weight: 400;
+}
+
+.group-period {
+    font-size: 12px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+.atomic-number {
+    display: block;
+}
+
+.group {
+    display: block;
+}
+
+.period {
+    display: block;
+}
+
+td[colspan] {
+    border: none;
+}
+
+td {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.nides {
+    text-align: end;
+}
