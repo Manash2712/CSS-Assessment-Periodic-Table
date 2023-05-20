@@ -18,6 +18,7 @@ th {
 
 table {
     margin: 0 auto;
+    /* width: 95vw; */
 }
 
 .atomic-number {
@@ -39,10 +40,38 @@ td[colspan] {
 td {
     height: 50px;
     width: 50px;
+    /* width: auto; */
     border: 1px solid black;
     text-align: center;
 }
 
 .nides {
     text-align: end;
+}
+
+.empty-col {
+    width: 10px;
+    border: none;
+}
+
+.star::before {
+    content: "*";
+}
+
+.row-gap {
+    height: 10px;
+}
+
+.color-pink {
+    background-color: #ff9999;
+}
+
+.color-yellow {
+    background-color: #fdff8c;
+}
+.color-blue {
+    background-color: #99ccff;
+}
+.color-green {
+    background-color: #9bff99;
 }
